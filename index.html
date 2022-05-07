@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VBIOSINTEZ </title>
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' id='animate-css' href='css/animate.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css"
+        integrity="sha512-/AilQf/shuEGfh8c3DoIqcIqHZCKpiImSyt+fxIKJphHiNa6QMPb6AbDly6rkjmGr/5OZd35JtvVkbEKnCZO+A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.css"
+        integrity="sha512-g+pNagYYEdQuLLr1akeb7LxcUyjKotEMXpeFvkvE2Xd70Yw7cLSRGbeP95gBLAU/zNzgjAK0+/lvz4EkOR7EMw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <script>
+        (function ($) {
+          $(window).on("load", function () {
+            $('.production').mCustomScrollbar({
+              theme: "dark-thin"
+            });
+          });
+        })(jQuery);
+    </script>
+</head>
+
+<body>
+    <div class="prelouder show">
+        <img src="img/logo.png" alt="">
+    </div>
+    <header id="header" class="header-fixed show">
+        <div class="container header_container">
+            <a href="/" class="header__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="header__menu">
+                <li>
+                    <a href="production.html">производство</a>
+                </li>
+                <li>
+                    <a href="about.html">о компании</a>
+                </li>
+                <li>
+                    <a href="#partners_block">Партнеры</a>
+                </li>
+                <li>
+                    <a href="contacts.html">контакты</a>
+                </li>
+            </ul>
+            <div class="header__burger"></div>
+        </div>
+    </header>
+    <div class="wrapper" id="fullpage">
+        <section id="home_id" class="home section">
+            <div class="container">
+                <div class="home__content">
+                    <h1 class="title wow fadeInLeft" data-wow-delay="0.5s">
+                        Voljsky
+                        Biosintez
+                    </h1>
+                    <div class="home__content-text wow fadeInLeft" data-wow-delay="0.6s">
+                        Российский производитель препаратов для растениеводства
+                    </div>
+                    <div class="home__cart-wrapper wow fadeInLeft" data-wow-delay="0.8s">
+                        <div class="home__cart">
+                            <img src="img/star.svg" alt="">
+                            <h3 class="home__cart-title">Лидеры рынка</h3>
+                            <p class="home__cart-text">
+                                Работаем с 1999 года
+                            </p>
+                        </div>
+                        <div class="home__cart">
+                            <img class="home__cart-img" src="img/video_bg.png" alt="">
+                            <a href="#" data-toggle="modal" data-target="#video" class="play_video">
+                                <img src="img/video_play.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="secondPage" class="page_2 section">
+            <div class="container">
+                <div class="page2_container">
+                    <div class="page2__content">
+                        <h2 class="page2__title  fadeInLeft " data-wow-delay="0.4s">Совмещая лучшее</h2>
+                        <p class="page2__text-top  fadeInLeft " data-wow-delay="0.5s">В основу создания
+                            производства
+                            лег опыт и анализ стран лидеров
+                            сельского хозяйства в мире.</p>
+                        <p class="page2__text-bot  fadeInLeft " data-wow-delay="0.5s">В американских и
+                            европейских
+                            странах использование
+                            специализированных препаратов уже превысило 5% от общего объема средств защиты растений.
+                        </p>
+                        <a href="about.html" class="page2__button  fadeInLeft " data-wow-delay="0.9s">О
+                            компании</a>
+                    </div>
+                    <div class="page2_image fadeInUp " data-wow-delay="0.3s">
+                        <img class="page2_image-img" src="img/2_img.png" alt="">
+                        <img class="page2_dop_img" src="img/2_img1.png" alt="">
+                        <img class="page2_dop_img2" src="img/2_img2.png" alt="">
+                        <img class="page2_dop_img3" src="img/2_img3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="thirdPage" class="production section fp-auto-height">
+            <div class="container">
+                <div class="page_production">
+                    <div class="page_production-container">
+                        <div class="page_production-title">
+                            <h2 class="page_title  fadeInLeft " data-wow-delay="0.3s" style="margin-bottom: 0;">
+                                Продукция</h2>
+                            <a href="production.html" class="catalog_button  fadeInRight "
+                                data-wow-delay="0.3s">Каталог</a>
+                        </div>
+                        <div class="production_list">
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-content">
+                                    <div class="production-item-text">SILVER STAR</div>
+                                    <div class="production-item-title">BorN</div>
+                                    <div class="production-item-text2">
+                                        Специальный препарат, который предотвращает образование пены и предупреждает
+                                        потери
+                                        действующего вещества рабочего раствора...
+                                    </div>
+                                </div>
+                                <div class="production-item-fs-image  fadeInUp" data-wow-delay="0.5s">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">PK 0-36-24</div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">Amino</div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">Антипена</div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">BorN</div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">Mo 300</div>
+                            </a>
+                            <a href="tovar_item.html" class="production-item  fadeInUp" data-wow-delay="0.5s">
+                                <div class="production-item-image">
+                                    <img src="img/production_img.png" alt="">
+                                </div>
+                                <div class="production-item-text">SILVER STAR</div>
+                                <div class="production-item-title">PK 0-36-24</div>
+                            </a>
+                        </div>
+                        <div class="production__button  fadeInUp" data-wow-delay="0.5s">
+                            <a href="production.html" id="production_button">Смотреть еще</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="partners_block" class="partners section">
+            <div class="container">
+                <div class="page_partners">
+                    <h2 class="page_title  fadeInDown" data-wow-delay="0.3s">Партнеры</h2>
+                    <div class="partners__container  fadeInLeft" data-wow-delay="0.5s">
+                        <div class="partners__item">
+                            <img src="img/partners_logo_1.png" alt="">
+                        </div>
+                        <div class="partners__item">
+                            <img src="img/partners_logo_5.png" alt="">
+                        </div>
+                        <div class="partners__item">
+                            <img src="img/partners_logo_3.png" alt="">
+                        </div>
+                        <div class="partners__item">
+                            <img src="img/partners_logo_4.png" alt="">
+                        </div>
+                        <div class="partners__item">
+                            <img src="img/partners_logo_5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-section" class="page_contact section">
+            <div class="container">
+                <div class="page_production-title">
+                    <h2 class="page_title  " data-wow-delay="0.4s" style="margin-bottom: 0;">Контакты</h2>
+                </div>
+                <div class="page_contact__content fadeInUp" data-wow-delay="0.6s">
+                    <a href="tel:+79610805111">+7 (961) 080-51-11</a>
+                    <a href="tel:+78002007487">+7 (800) 200-7487</a>
+                    <a href="mailto:pkvag@mail.ru">pkvag@mail.ru</a>
+                </div>
+            </div>
+            <section class="contact_block_map fadeInUp" data-wow-delay="1s">
+                <script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"
+                    type="text/javascript"></script>
+                <div id="map" style="width:100%; height:100%;"></div>
+                <script>ymaps.ready(init);
+
+                    function init() {
+                        var myMap = new ymaps.Map("map", {
+                            center: [55.751979, 37.617499],
+                            zoom: 18
+                        }),
+
+                            // Создаем метку с помощью вспомогательного класса.
+                            myPlacemark1 = new ymaps.Placemark([55.751979, 37.617499], {
+                                // Свойства.
+                                // Содержимое хинта.
+                                hintContent: 'Волжский'
+                            }, {
+                                // Опции
+                                // Своё изображение иконки метки.
+                                iconImageHref: 'img/Metka_map.png',
+                                // Размеры метки.
+                                iconImageSize: [80, 50],
+                                // Смещение левого верхнего угла иконки относительно
+                                // её "ножки" (точки привязки).
+                                iconImageOffset: [-65, -110]
+                            })
+
+
+                        // Добавляем все метки на карту.
+                        myMap.geoObjects
+                            .add(myPlacemark1)
+
+                    }
+                </script>
+                <style>
+                    .ymaps-layers-pane {
+                        -webkit-filter: grayscale(100%);
+                    }
+                </style>
+            </section>
+        </section>
+
+
+        <footer class="footer section fp-auto-height">
+            <div class="container">
+                <div class="footer-wrap d-flex space-between">
+                    <div class="footer-logo " data-wow-delay="0.3s">
+                        <div class="footer-logo__pict">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="footer-logo__wrap d-flex space-between">
+                            <a href="#">
+                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.4604 4.06152C15.2855 3.27092 15.5653 2.66738 15.4589 1.06152C14.9766 1.5976 14.3381 1.93773 13.6965 2.0349C13.156 1.43707 12.3748 1.06152 11.5061 1.06152C9.82911 1.06152 8.46967 2.42307 8.46967 4.10262L8.46967 5.06152C4.87522 5.06152 2.97815 2.39486 2.47893 1.06152C0.482012 5.06152 1.9797 8.56152 6.47275 10.0615C5.80712 10.7282 3.87676 12.0615 1.48047 12.0615C2.97815 13.0615 4.54732 13.0615 6.16073 13.0615C10.7445 13.0615 14.4604 9.33989 14.4604 4.74902V4.06152Z"
+                                        fill="#1E1E1E" />
+                                    <path
+                                        d="M15.4589 1.06152L15.9578 1.02845C15.9445 0.827875 15.8124 0.654768 15.6224 0.589023C15.4324 0.523279 15.2216 0.577681 15.0871 0.72712L15.4589 1.06152ZM14.9604 4.02043C14.9604 3.74429 14.7365 3.52043 14.4604 3.52043C14.1843 3.52043 13.9604 3.74429 13.9604 4.02043H14.9604ZM8.46967 4.10262H7.96967V4.10262L8.46967 4.10262ZM8.46967 5.06152L8.96967 5.06152V5.06152L8.46967 5.06152ZM2.47893 1.06152L2.94718 0.886199C2.87741 0.699863 2.7038 0.572627 2.50511 0.562209C2.30641 0.551791 2.12045 0.660175 2.03157 0.838193L2.47893 1.06152ZM6.47275 10.0615L6.82658 10.4148C6.94894 10.2923 6.99917 10.1151 6.95936 9.94657C6.91954 9.77803 6.79535 9.64209 6.63109 9.58726L6.47275 10.0615ZM1.48047 12.0615V11.5615C1.2602 11.5615 1.06588 11.7057 1.00197 11.9165C0.938069 12.1273 1.01964 12.355 1.20282 12.4774L1.48047 12.0615ZM13.6965 2.0349L13.3257 2.37025L13.5058 2.56949L13.7714 2.52927L13.6965 2.0349ZM14.96 1.0946C15.0115 1.8724 14.9638 2.34464 14.8377 2.70008C14.7153 3.04507 14.5017 3.32942 14.1145 3.70051L14.8063 4.42253C15.2441 4.00302 15.583 3.5903 15.7802 3.0344C15.9737 2.48896 16.0127 1.8565 15.9578 1.02845L14.96 1.0946ZM14.9604 4.74902V4.06152H13.9604V4.74902H14.9604ZM14.9604 4.06152V4.02043H13.9604V4.06152H14.9604ZM7.96967 4.10262L7.96967 5.06152L8.96967 5.06152L8.96967 4.10262L7.96967 4.10262ZM7.96967 5.06152L7.96967 5.56152L8.96967 5.56152L8.96967 5.06152L7.96967 5.06152ZM11.5061 0.561523C9.55224 0.561523 7.96967 2.14765 7.96967 4.10262H8.96967C8.96967 2.69848 10.106 1.56152 11.5061 1.56152V0.561523ZM13.9604 4.74902C13.9604 9.06447 10.4676 12.5615 6.16073 12.5615V13.5615C11.0214 13.5615 14.9604 9.6153 14.9604 4.74902H13.9604ZM2.01067 1.23685C2.55405 2.68808 4.59473 5.56152 8.46967 5.56152V4.56152C5.15571 4.56152 3.40226 2.10163 2.94718 0.886199L2.01067 1.23685ZM2.03157 0.838193C0.984848 2.93488 0.823572 4.96847 1.58433 6.70013C2.34335 8.42784 3.97644 9.75526 6.31442 10.5358L6.63109 9.58726C4.476 8.86778 3.11373 7.6952 2.49987 6.29791C1.88775 4.90458 1.97609 3.18817 2.92628 1.28485L2.03157 0.838193ZM6.11892 9.70825C5.51681 10.3113 3.70657 11.5615 1.48047 11.5615V12.5615C4.04696 12.5615 6.09743 11.1451 6.82658 10.4148L6.11892 9.70825ZM14.0674 1.69956C13.4361 1.00141 12.5221 0.561523 11.5061 0.561523V1.56152C12.2275 1.56152 12.8758 1.87272 13.3257 2.37025L14.0674 1.69956ZM13.7714 2.52927C14.5319 2.41408 15.2739 2.0147 15.8306 1.39593L15.0871 0.72712C14.6793 1.18049 14.1444 1.46138 13.6217 1.54054L13.7714 2.52927ZM1.20282 12.4774C2.84351 13.5728 4.56384 13.5615 6.16073 13.5615V12.5615C4.5308 12.5615 3.1128 12.5502 1.75812 11.6457L1.20282 12.4774Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.804688 10.9251V3.19725C0.804688 2.53458 1.2676 1.96196 1.91556 1.82312C5.79758 0.991253 9.8118 0.991253 13.6938 1.82312C14.3418 1.96196 14.8047 2.53458 14.8047 3.19725V10.9251C14.8047 11.5877 14.3418 12.1604 13.6938 12.2992C9.8118 13.1311 5.79758 13.1311 1.91556 12.2992C1.2676 12.1604 0.804688 11.5877 0.804688 10.9251Z"
+                                        fill="#1E1E1E" />
+                                    <path d="M6.80469 9.06116V5.06116L9.80469 7.06116L6.80469 9.06116Z"
+                                        fill="#1E1E1E" />
+                                    <path
+                                        d="M1.91556 12.2992L1.81079 12.7881H1.81079L1.91556 12.2992ZM13.6938 12.2992L13.7986 12.7881L13.6938 12.2992ZM13.6938 1.82312L13.7986 1.33421V1.33421L13.6938 1.82312ZM1.91556 1.82312L2.02032 2.31202L1.91556 1.82312ZM6.80469 5.06116L7.08204 4.64513C6.92861 4.54285 6.73134 4.53331 6.56876 4.62032C6.40618 4.70733 6.30469 4.87676 6.30469 5.06116H6.80469ZM6.80469 9.06116H6.30469C6.30469 9.24556 6.40618 9.41499 6.56876 9.502C6.73134 9.58901 6.92861 9.57947 7.08204 9.47718L6.80469 9.06116ZM9.80469 7.06116L10.082 7.47718C10.2211 7.38445 10.3047 7.22834 10.3047 7.06116C10.3047 6.89398 10.2211 6.73787 10.082 6.64513L9.80469 7.06116ZM0.304688 3.19725V10.9251H1.30469V3.19725H0.304688ZM15.3047 10.9251V3.19725H14.3047V10.9251H15.3047ZM1.81079 12.7881C5.76187 13.6348 9.8475 13.6348 13.7986 12.7881L13.5891 11.8103C9.77609 12.6274 5.83328 12.6274 2.02032 11.8103L1.81079 12.7881ZM13.7986 1.33421C9.8475 0.487554 5.76187 0.487554 1.81079 1.33421L2.02032 2.31202C5.83329 1.49495 9.77609 1.49495 13.5891 2.31202L13.7986 1.33421ZM15.3047 3.19725C15.3047 2.29881 14.6771 1.52246 13.7986 1.33421L13.5891 2.31202C14.0065 2.40146 14.3047 2.77035 14.3047 3.19725H15.3047ZM14.3047 10.9251C14.3047 11.352 14.0065 11.7209 13.5891 11.8103L13.7986 12.7881C14.6771 12.5999 15.3047 11.8235 15.3047 10.9251H14.3047ZM0.304688 10.9251C0.304688 11.8235 0.932302 12.5999 1.81079 12.7881L2.02032 11.8103C1.6029 11.7209 1.30469 11.352 1.30469 10.9251H0.304688ZM1.30469 3.19725C1.30469 2.77035 1.6029 2.40146 2.02032 2.31202L1.81079 1.33421C0.932302 1.52246 0.304688 2.29881 0.304688 3.19725H1.30469ZM6.30469 5.06116V9.06116H7.30469V5.06116H6.30469ZM7.08204 9.47718L10.082 7.47718L9.52734 6.64513L6.52734 8.64513L7.08204 9.47718ZM10.082 6.64513L7.08204 4.64513L6.52734 5.47718L9.52734 7.47718L10.082 6.64513Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.125 1.06152H5.125C2.91586 1.06152 1.125 2.85238 1.125 5.06152V11.0615C1.125 13.2707 2.91586 15.0615 5.125 15.0615H11.125C13.3341 15.0615 15.125 13.2707 15.125 11.0615V5.06152C15.125 2.85238 13.3341 1.06152 11.125 1.06152Z"
+                                        fill="#1E1E1E" />
+                                    <path
+                                        d="M5.125 8.06152C5.125 9.71838 6.46815 11.0615 8.125 11.0615C9.78185 11.0615 11.125 9.71838 11.125 8.06152C11.125 6.40467 9.78185 5.06152 8.125 5.06152C6.46815 5.06152 5.125 6.40467 5.125 8.06152Z"
+                                        fill="#1E1E1E" />
+                                    <path
+                                        d="M11.625 4.06152H12.625M5.125 1.06152H11.125C13.3341 1.06152 15.125 2.85238 15.125 5.06152V11.0615C15.125 13.2707 13.3341 15.0615 11.125 15.0615H5.125C2.91586 15.0615 1.125 13.2707 1.125 11.0615V5.06152C1.125 2.85238 2.91586 1.06152 5.125 1.06152ZM8.125 11.0615C6.46815 11.0615 5.125 9.71838 5.125 8.06152C5.125 6.40467 6.46815 5.06152 8.125 5.06152C9.78185 5.06152 11.125 6.40467 11.125 8.06152C11.125 9.71838 9.78185 11.0615 8.125 11.0615Z"
+                                        stroke="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-item" data-wow-delay="0.4s">
+                        <div class="footer-item__name">
+                            <p>Для бизнеса</p>
+                        </div>
+                        <div class="footer-item__text">
+                            <p>
+                                <span>ООО</span> XXXXXXXXX<br>
+                                <span>ИНН</span> XXXXXXXXX<br>
+                                <span>КПП</span> XXXXXXXXX
+                            </p>
+                        </div>
+                        <div class="footer-links">
+                            <a href="#">Политика конфиденциальности</a><br>
+                            <a href="#">Публичная оферта</a>
+                        </div>
+                    </div>
+                    <div class="footer-item  fadeInUp" data-wow-delay="0.5s">
+                        <div class="footer-item__name">
+                            <p>Адрес</p>
+                        </div>
+                        <div class="footer-item__text">
+                            <p> 404143, Волгоградская обл., Среднеахтубинский район, рп&nbsp;Средняя Ахтуба,
+                                ул.&nbsp;Мельничная&nbsp;9</p>
+                            <p>Ежедневно с 9:00 до 22:00</p>
+                        </div>
+                    </div>
+                    <div class="footer-item  fadeInUp" data-wow-delay="0.6s">
+                        <div class="footer-item__name">
+                            <p>Контакты</p>
+                        </div>
+                        <div class="footer-item__text">
+                            <a href="tel:+79610805111" class="footer-item__link">+7 (961) 080-51-11</a><br>
+                            <a href="tel:+78002007487" class="footer-item__link">+7 (800) 200-7487</a><br>
+                            <a href="mailto:pkvag@mail.ru" class="footer-item__link">pkvag@mail.ru</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="burger__block">
+            <ul class="burger__menu">
+                <li>
+                    <a href="production.html">производство</a>
+                </li>
+                <li>
+                    <a href="about.html">о компании</a>
+                </li>
+                <li>
+                    <a href="#partners_block">Партнеры</a>
+                </li>
+                <li>
+                    <a href="contacts.html">контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="modal modal-video fade" id="video" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <!-- <a class="modal-close" data-dismiss="modal" aria-label="Close">×</a> -->
+                    <iframe width="100%" height="560" src="https://www.youtube.com/embed/VcF_DeZDDv0?enablejsapi=true"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"
+        integrity="sha512-0xW5KFMtT462F65vVvIejNawM1U2Fp/yhItmQVFUwdYP+R9tQFCn4QtLEhkp6RoGovZ6YCvbxy+GVCtGv0+nvA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.extensions.min.js"
+        integrity="sha512-LhApJQeeGjtvesKNVaID1e7awoIxwC6TG+KrB3HxIBbRcZDUxY6FwgleOvqaeKyfqHf1w5MM74NsIFm5tSoXkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- main js -->
+    <script src="js/script.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+
+                if ($('body').hasClass('fp-viewing-0')) {
+                    $(".header-fixed").css('background', 'transparent');
+                    console.log('fp-viewing-0 active')
+                } else {
+                    $(".header-fixed").css('background', '#220133');
+                    console.log('fp-viewing-0 disable')
+                }
+            });
+        });
+    </script> -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+
+</html>
